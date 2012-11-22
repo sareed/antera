@@ -1,0 +1,176 @@
+﻿body {
+	overflow-y: scroll;
+	margin: 0;
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+header {
+	min-width: 960px;
+	min-height: 200px;
+	background: url(/img/header.png) top center no-repeat;
+}
+
+.logo {
+	color: #fff;
+	white-space: nowrap;
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	margin-right: 100px;
+	width: 400px;
+	height: 70px;
+	font-size: 42px;
+	text-align: right;
+	font-weight: 300;
+	vertical-align: bottom;
+	margin-top: 12px;
+}
+
+.navigation {
+	font-size: 22px;
+	text-align: right;
+	font-weight: 300;
+	vertical-align: bottom;
+	margin-top: 32px;
+	color: #fff;
+	white-space: nowrap;
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+a, a:visited {
+	text-decoration: none;	
+	color: #fff;
+}
+
+.main {
+	padding-bottom: 80px;
+	background: #EEE url(/img/diamond-pattern.png) center;
+	-webkit-box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 -5px 20px rgba(0,0,0,0.2);
+	-ms-box-shadow: 0 -5px 20px rgba(0,0,0,0.2);
+	-o-box-shadow: 0 -5px 20px rgba(0,0,0,0.2);
+	box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.2);
+	position: relative;
+	z-index: 2;
+}
+
+.main .brick {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+	-ms-box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+	-o-box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+	background: white;
+	margin-top: 20px;
+	padding: 0 0 10px 0;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+}
+
+.main .brick:hover {
+	-webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 2px 7px rgba(0,0,0,0.4);
+	-ms-box-shadow: 0 2px 7px rgba(0,0,0,0.4);
+	-o-box-shadow: 0 2px 7px rgba(0,0,0,0.4);
+	box-shadow: 0 2px 7px rgba(0, 0, 0, 0.4);
+}
+
+.brick .blog .diamond {
+	background-image: url("/img/diamond/blog.png");
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/diamond/blog.png',sizingMethod='crop');
+}
+.diamond {
+	width: 64px;
+	height: 64px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: -31px;
+	z-index: 10;
+}
+
+.container_12 .grid_3, .container_16 .grid_4 {
+    width: 220px;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer {
+    -webkit-background-clip: border-box;
+    -webkit-background-origin: padding-box;
+    -webkit-background-size: auto;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url(/img/header.png);
+    background-size: auto;
+    color: #222;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    height: 411px;
+    line-height: 19px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 80px;
+    position: relative;
+}
+
+footer ul {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 2em;
+}
+
+footer .social {
+    margin-top: 40px;
+    text-align: center;
+    color: #888;
+    font-weight: 300;
+}
+
+footer .final {
+    margin: 5px 0 0 0;
+    text-align: center;
+}
+
+
+footer li {
+    margin: 0;
+    padding: 0;
+}
+
+footer a, footer a:visited {
+    color: #59879F;
+}
+
+footer h4 {
+    font-family: 'Open Sans',sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .15em;
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    margin: 0;
+    line-height: 2em;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
